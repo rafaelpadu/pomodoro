@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.container{
+    background-color: lightgrey;
+    height: 100vh;
+    padding-top: 35px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+}
+.timer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.timer p{
+    padding: 8px;
+}
+.botoes{
+    margin-top: 15px;
+}
+.botoes button{
+    width: 70px;
+    border-radius: 15px;
+    border-style: none;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.botoes button:hover{
+    cursor: pointer;
+    background-color: #a4161a;
+}
