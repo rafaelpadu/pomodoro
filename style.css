@@ -28,6 +28,7 @@ body{
 }
 .botoes{
     margin-top: 15px;
+    
 }
 .botoes button{
     width: 70px;
@@ -39,4 +40,17 @@ body{
 .botoes button:hover{
     cursor: pointer;
     background-color: #a4161a;
+}
+.stop{
+    content: "Pausar";
+}
+
+.sessoes{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.sessions{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-top: 0.8rem;
 }
